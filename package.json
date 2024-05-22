@@ -1,0 +1,74 @@
+{
+  "name": "pc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "antd": "^5.17.2",
+    "axios": "^1.7.0",
+    "i18next": "^23.11.4",
+    "mobx": "^6.12.3",
+    "mobx-react-lite": "^4.0.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^14.1.1",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "REACT_APP_ENV=development craco start",
+    "build:development": "REACT_APP_ENV=development craco build",
+    "build:production": "REACT_APP_ENV=production craco build",
+    "build": "craco build",
+    "test": "react-scripts test",
+    "eject": "craco eject",
+    "lint": "eslint --cache --max-warnings 0  \"{src,mock}/**/*.{ts,tsx}\" --fix",
+    "format": "prettier --write  \"src/**/*.{js,json,tsx,css,less,scss,html,md}\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@craco/craco": "^7.1.0",
+    "@eslint/compat": "^1.0.1",
+    "@eslint/js": "^9.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "8.x",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-typescript": "^0.14.0",
+    "globals": "^15.2.0",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "sass": "^1.77.2",
+    "tailwindcss": "^3.4.3",
+    "typescript-eslint": "^7.9.0"
+  }
+}
